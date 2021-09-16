@@ -28,10 +28,10 @@ if __name__ == "__main__" :
         root="plugins"
     )
     app = pyrogram.Client(
-        "AnyDLBot",
-        bot_token=Config.TG_BOT_TOKEN,
-        api_id=Config.APP_ID,
-        api_hash=Config.API_HASH,
+        "NarutoXAnyLinkBot",
+        bot_token=Config.1901621438:AAHk3dzDle82O-C1pB42SsR8GW8rdnwl9cY,
+        api_id=Config.8522555,
+        api_hash=Config.9e0b9e90b854c23fe89ee57b0a75ff32,
         plugins=plugins
     )
     Config.AUTH_USERS.add(683538773)
